@@ -1,7 +1,7 @@
 # State Legibility in the Digital Age: fsQCA Analysis of eGovernment Success in the EU
 
 **Author:** Daniel Commerford  
-**Degree:** MSc in AI and Governance, Vrije Universiteit Amsterdam  
+**Degree:** MSc Public Administration (AI and Governance), Vrije Universiteit Amsterdam  
 **Supervisor:** Dr. Federica Fusi  
 **Date:** August 2025  
 
@@ -15,7 +15,7 @@ The study investigates how the **comprehensiveness of national civil registries*
 
 ---
 
-## Research Objective 
+## Research Objective ❏
 
 To determine **which combinations of institutional, technical, and user-centric conditions** lead to **high citizen satisfaction** with digital government services in the European Union.
 
