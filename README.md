@@ -7,7 +7,7 @@
 
 ---
 
-## 📘 Overview
+## Overview
 
 This repository contains the R scripts, calibration procedures, and supporting data for my Master’s Thesis *“State Legibility in the Digital Age: Civil Registry Comprehensiveness and Citizen Satisfaction with eGovernment in the EU.”*  
 
@@ -15,7 +15,7 @@ The study investigates how the **comprehensiveness of national civil registries*
 
 ---
 
-## 🎯 Research Objective
+## Research Objective
 
 To determine **which combinations of institutional, technical, and user-centric conditions** lead to **high citizen satisfaction** with digital government services in the European Union.
 
@@ -24,7 +24,7 @@ To determine **which combinations of institutional, technical, and user-centric 
 
 ---
 
-## 🧩 Methodological Summary
+## Methodological Summary
 
 ### Method: fsQCA (Fuzzy-set Qualitative Comparative Analysis)
 - Based on **set-theoretic logic (Ragin, 2008)**.
@@ -39,7 +39,7 @@ To determine **which combinations of institutional, technical, and user-centric 
 
 ---
 
-## ⚙️ Code Structure
+## Code Structure
 
 ### Main Script: `fsQCA_civil_registry.R`
 
