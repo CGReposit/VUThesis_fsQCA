@@ -1,6 +1,6 @@
-# State Legibility in the Digital Age: fsQCA Analysis of eGovernment Success in the EU
+# State Legibility in the Digital Age: fsQCA Analysis of eGovernment Success in the EU 🇪🇺
 
-**Author:** Daniel Commerford  
+**Author:** Daniel Commerford G  
 **Degree:** MSc Public Administration (AI and Governance), Vrije Universiteit Amsterdam  
 **Supervisor:** Dr. Federica Fusi  
 **Date:** August 2025  
@@ -9,9 +9,13 @@
 
 ## Overview
 
-This repository contains the R scripts, calibration procedures, and supporting data for my Master’s Thesis *“State Legibility in the Digital Age: Civil Registry Comprehensiveness and Citizen Satisfaction with eGovernment in the EU.”*  
+This repository contains the R scripts, calibration procedures, and supporting data for my Master’s Thesis *“State Legibility in the Digital Age: Civil Registry Comprehensiveness and Citizen Satisfaction with eGovernment in the EU.”* 
 
-The study investigates how the **comprehensiveness of national civil registries**—as conceptualized through **State Legibility Theory (Scott, 2020)**—affects **citizen satisfaction with digital public services** across the 27 EU member states. Using **Fuzzy-set Qualitative Comparative Analysis (fsQCA)**, it identifies **configurations of digital infrastructure and governance factors** that jointly lead to successful public service delivery.
+This study examines how the comprehensiveness of national civil registries — key instruments of state information capacity — shapes citizen satisfaction with digital public services in the European Union. Drawing on James C. Scott’s State Legibility Theory, it argues that states with more interoperable and transparent registry systems exhibit higher citizen satisfaction.
+
+Using data from the 2024 eGovernment Benchmark and Special Eurobarometer 551, the analysis employs fuzzy-set Qualitative Comparative Analysis (fsQCA) to identify configurations of institutional, technical, and user-centric conditions that lead to high satisfaction. Results reveal multiple, equifinal pathways, confirming that successful eGovernment outcomes emerge from the joint presence of interoperability, realiable identification, and transparency rather than any single factor alone.
+
+This thesis advances understanding of how state information capacity shapes citizen satisfaction with digital public services. Its findings provide both a theoretical and empirical foundation for future research on digital governance and offer policymakers evidence of the infrastructural conditions necessary for effective and inclusive eGovernment adoption
 
 ---
 
@@ -103,13 +107,72 @@ This framework bridges **James C. Scott’s State Legibility Theory** with moder
 
 ---
 
-## Expected Outputs
+## 📈 Expected Outputs
 
-- Calibrated dataset (`IV - condition scores.xlsx` with fuzzy-set transformations)  
-- Diagnostic plots showing calibration curves and membership distributions  
-- Truth table summarizing consistent configurations of conditions  
+- Calibrated dataset (`IV - condition scores.xlsx` with fuzzy-set transformations)
+- Diagnostic plots showing calibration curves and membership distributions
+- Truth table summarizing consistent configurations of conditions
 - Minimized solutions identifying alternative (equifinal) pathways to high success
 
 **Example outcome structure:**
+```r
+solution <- minimize(tt, details = TRUE, show.cases = TRUE)
+print(solution)
+```
+
+Output includes:
+
+- Consistency and coverage scores for each configuration
+- Case membership (countries) per solution pathway
+- Interpretation of necessary vs. sufficient conditions
+
+---
+
+##  Dependencies
+
+Install required R packages before running:
+```r
+install.packages(c(
+  "QCA", "SetMethods", "psych", "readxl", "ggplot2",
+  "writexl", "tidyverse", "knitr", "rmarkdown",
+  "dplyr", "patchwork"
+))
+```
+
+---
+
+## ✍︎ Citation 
+
+If you use this repository, please cite as:
+
+Commerford, D. (2025). State Legibility in the Digital Age: Civil Registry 
+Comprehensiveness and Citizen Satisfaction with eGovernment in the EU. 
+[Master's thesis, Vrije Universiteit Amsterdam].
+
+
+---
+
+## Repository Contents
+```
+ VUThesis_fsQCA/
+ ├── VUThesis_fsQCA.R                  # Main analysis script
+ ├── IV - condition scores.xlsx        # Input dataset (EU27 indicators)
+ ├── calibration_plots/                # Calibration visualizations
+ ├── truth_tables/                     # Truth table outputs
+ ├── thesis_reference.pdf              # Thesis manuscript (optional)
+ └── README.md                         # Project overview
+```
+
+---
+
+## License
+
+This work is released under the MIT License. You are free to use, modify, and distribute the code with appropriate attribution.
+
+---
+
+## 🤝 Acknowledgments
+
+This project was supervised by Dr. Federica Fusi (Vrije Universiteit Amsterdam) and supported by data from the European Commission and Eurobarometer research programs.
 
 
