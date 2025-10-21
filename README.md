@@ -31,7 +31,7 @@ To determine **which combinations of institutional, technical, and user-centric 
 ## Methodological Summary
 
 ### Method: fsQCA (Fuzzy-set Qualitative Comparative Analysis)
-- Based on **set-theoretic logic (Ragin, 2008)**.
+- Based on set-theoretic logic (Ragin, 2008).
 - Captures **causal complexity, equifinality, and asymmetry**—that is, multiple pathways to the same successful outcome.
 - Implemented in **R** using the `QCA` and `SetMethods` packages.
 
