@@ -1,6 +1,6 @@
 # State Legibility in the Digital Age: fsQCA Analysis of eGovernment Success in the EU 🇪🇺
 
-**Author:** Daniel Commerford G  
+**Author:** Daniel Commerford G.  
 **Degree:** MSc Public Administration (AI and Governance), Vrije Universiteit Amsterdam  
 **Supervisor:** Dr. Federica Fusi  
 **Date:** August 2025  
