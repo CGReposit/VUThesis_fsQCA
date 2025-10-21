@@ -68,7 +68,7 @@ Six causal conditions represent dimensions of civil registry comprehensiveness:
 | fs_user_support | User support / help tools | (80, 94.5, 98) |
 | fs_eid | Electronic identification | (60, 71.5, 93) |
 | fs_availability | Online and mobile availability | (90, 94, 98) |
-| fs_edocument | Electronic document submission | (66.5, 86, 95.96) |
+| fs_edocument | Electronic document submission | (66.5, 86, 96) |
 | fs_transparency | Transparency of service delivery | (60, 70, 80) |
 | fs_prefilled | Pre-filled online forms | (60, 71, 85) |
 
