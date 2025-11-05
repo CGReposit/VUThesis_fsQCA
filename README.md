@@ -51,7 +51,7 @@ This R script performs the complete analytical pipeline:
 
 1. **Load and inspect data**
    ```r
-   data <- read_excel("IV - condition scores.xlsx")
+   data <- read_excel("dcgthesisdataset.xlsx ")
    head(data)
    
 2. **Outcome calibration (fs_success)**
@@ -154,13 +154,13 @@ Comprehensiveness and Citizen Satisfaction with eGovernment in the EU.
 
 ## Repository Contents
 ```
- VUThesis_fsQCA/
- ├── VUThesis_fsQCA.R                  # Main analysis script
- ├── IV - condition scores.xlsx        # Input dataset (EU27 indicators)
- ├── calibration_plots/                # Calibration visualizations
- ├── truth_tables/                     # Truth table outputs
- ├── thesis_reference.pdf              # Thesis manuscript (optional)
- └── README.md                         # Project overview
+VUThesis_fsQCA/
+ ├── VUThesis_fsQCA.R             #R script
+ ├── README.md                    #overview of repository and thesis
+ ├── THESIS - COMMERFORD.pdf      #main thesis text
+ ├── dcgthesisdataset.xlsx        #dataset
+ ├── Eurobarometer 551            #DV survey
+ └── eGovernment Benchmark 2024   #IV condition - secondary source
 ```
 
 ---
